@@ -1,0 +1,99 @@
+body {
+  border-top: 3px solid #E42B19;
+  background: url("../img/background_repeat.png") repeat top left #fffffa;
+  color: #838383;
+  font-family: "Museo slab", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+.container {
+  zoom: 1;
+  max-width: 62.5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.full-width.header {
+  /* padding: 18px 0px; */
+  padding: 0;
+  background-color: #bdeef4;
+  box-shadow: inset 0 7px 0 rgba(0, 0, 0, 0.2);
+}
+.full-width {
+  width: 100%;
+  background-image: url("../img/background_repeat.png");
+  background-repeat: repeat;
+  background-color: #fffffa;
+  padding: 50px 0px;
+}
+header.container nav.site-nav {
+  display: block;
+  float: left;
+  margin-right: 4.4%;
+  width: 100%;
+  text-align: center;
+}
+header.container nav.site-nav:last-child {
+  margin-right: 0;
+}
+header.container nav.site-nav ul {
+  padding-left: 0px;
+  margin: 0px;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+header.container nav.site-nav ul li {
+  vertical-align: middle;
+  text-transform: uppercase;
+  font-family: "MenschRegular", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+header.container nav.site-nav ul li a {
+  color: #393939;
+  padding: 20px 0px;
+}
+header.container nav.site-nav ul li a:hover {
+  color: #42c1d5;
+}
+header.container nav.site-nav ul li.current-menu-item:not(.logo) a,
+header.container nav.site-nav ul li.current_page_item:not(.logo) a,
+.single-projects header.container nav.site-nav ul li.work a,
+.single-post header.container nav.site-nav ul li.blog a {
+  color: #da594c;
+  border-bottom: 1px dotted;
+  padding-bottom: 13px;
+}
+header.container nav.site-nav ul li.logo {
+  width: 100px;
+  height: 120px;
+}
+header.container nav.site-nav ul li.logo a {
+  display: block;
+  width: 250px;
+  height: 115px;
+  margin: 0 auto;
+  background: transparent url(../img/logo_kreando2.png) no-repeat 0px 0px;
+  text-indent: -999em;
+}
+header.container nav.site-nav ul.desktop {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+header.container nav.site-nav ul.desktop li {
+  display: table-cell;
+  width: 20%;
+}
+header.container nav.site-nav ul.mobile {
+  display: none;
+}
+header.container nav.site-nav ul.mobile li {
+  padding: 10px 0px;
+  float: left;
+  width: 25%;
+  margin-top: 15px;
+}
+header.container nav.site-nav ul.mobile li.logo {
+  display: none;
+}

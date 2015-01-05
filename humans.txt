@@ -1,0 +1,36 @@
+/* humanstxt.org */
+
+/* TEAM */
+
+Name: 			eg: Israel Martinez V.
+Site:			eg: http://kreando.me
+Twitter:		eg: @iukones
+Location:		eg: Mx, D.F
+
+Name: 			eg: Juan Manuel Arana.
+Site:			eg: http://kreando.me
+Twitter:		eg: @JuanitoGalaxia
+Location:		eg: Mx, D.F
+
+
+/* THANKS */
+
+A todos mis colaboradores, que ayudaron a hacer posible este hermoso sitio Web.
+
+
+/* SITE */
+
+Standards:
+
+HTML5
+CSS3
+PHP
+JS
+
+Components:
+
+320 and Up: 		http://stuffandnonsense.co.uk/projects/320andup
+Font Awesome: 		http://fortawesome.github.com/Font-Awesome
+jQuery: 		http://jquery.com
+Modernizr: 		http://modernizr.com
+Selectivizr: 		http://selectivizr.com
